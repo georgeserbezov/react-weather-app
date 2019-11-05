@@ -4,7 +4,7 @@ import './App.css'
 
 var file = require('./weather.txt')
 
-export default class App extends Component {
+export default class Table extends Component {
 
   constructor() {
     super();

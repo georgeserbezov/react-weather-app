@@ -1,22 +1,16 @@
-.App {
-  text-align: center;
+.weather {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
 }
 
-.App-logo {
-  height: 40vmin;
+.weather td, .weather th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.weather th {
+    background-color: #4CAF50;
+    color: white;
 }
